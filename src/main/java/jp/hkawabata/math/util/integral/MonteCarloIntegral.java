@@ -10,6 +10,8 @@ import jp.hkawabata.math.util.func.Function;
  */
 public class MonteCarloIntegral implements Integral {
 
+    double dx = 0.1;
+    int times = 1000000;
     Random random = new Random();
 
     public double calculate(Function function, double x1, double x2) {
