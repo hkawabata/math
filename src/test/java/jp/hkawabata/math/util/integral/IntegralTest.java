@@ -2,15 +2,12 @@ package jp.hkawabata.math.util.integral;
 
 import static junit.framework.Assert.*;
 
+import java.util.ArrayList;
+import java.util.List;
 import jp.hkawabata.math.util.func.NOrderFunction;
 import org.apache.log4j.Logger;
 import org.junit.Before;
 import org.junit.Test;
-
-import java.util.ArrayList;
-import java.util.List;
-//import java.util.logging.Level;
-//import java.util.logging.Logger;
 
 /**
  * 積分のテスト
@@ -19,7 +16,6 @@ import java.util.List;
  */
 public class IntegralTest {
 
-    //Logger logger = Logger.getLogger(getClass().getName());
     Logger logger = Logger.getLogger(getClass().getName());
 
     double delta = 0.1;
